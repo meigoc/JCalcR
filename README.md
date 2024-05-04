@@ -10,8 +10,8 @@
 ## Скриншоты
 <div>
   <center>
-    ![загрузка](https://github.com/meigoc/JCalcR/assets/73817505/9b1729b2-1dd8-4ce4-bce8-37babd7be90f)
-    ![приложение](https://github.com/meigoc/JCalcR/assets/73817505/44c3b801-50c3-48e0-8db5-23981070da40)
+    ![loading](https://github.com/meigoc/JCalcR/assets/73817505/9b1729b2-1dd8-4ce4-bce8-37babd7be90f)
+    ![app](https://github.com/meigoc/JCalcR/assets/73817505/44c3b801-50c3-48e0-8db5-23981070da40)
   </center>
 </div>
 
