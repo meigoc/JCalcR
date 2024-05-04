@@ -268,6 +268,10 @@ class MainForm extends AbstractForm
      */
     function doButton8Action(UXEvent $e = null)
     {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->shutdown();
+
         
     }
 
@@ -282,7 +286,6 @@ class MainForm extends AbstractForm
             $operation = $event->sender->text; 
         }        
     }
-
 
 
 
