@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="splash_test">
+    <method name="doButton8Action">
+      <applicationShutdown/>
+    </method>
+  </class>
+</root>

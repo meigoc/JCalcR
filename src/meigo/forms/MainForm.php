@@ -2,6 +2,9 @@
 namespace meigo\forms;
 
 use std, gui, framework, meigo;
+use php\gui\event\UXWindowEvent; 
+use php\gui\event\UXMouseEvent; 
+use php\gui\event\UXEvent; 
 
 
 class MainForm extends AbstractForm
@@ -282,6 +285,39 @@ class MainForm extends AbstractForm
             $operation = $event->sender->text; 
         }        
     }
+
+    /**
+     * @event show 
+     */
+    function doShow(UXWindowEvent $e = null)
+    {    
+        waitAsync(100, function () use ($e, $event) {
+            app()->hideSplash();
+        });    
+    }
+
+    /**
+     * @event button11.click-Left 
+     */
+    function doButton11ClickLeft(UXMouseEvent $e = null)
+    {
+        browse("https://github.com/meigoc/JCalcR");  
+    }
+
+
+    /**
+     * @event button12.action 
+     */
+    function doButton12Action(UXEvent $e = null)
+    {    
+        if ($this->iconified) {
+            $this->iconified = false;
+        } else {
+            $this->iconified = true;
+        }    
+    }
+
+
 
 
 

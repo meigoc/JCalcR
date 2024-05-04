@@ -4,5 +4,6 @@
     <method name="doButton8Action">
       <applicationShutdown/>
     </method>
+  
   </class>
 </root>

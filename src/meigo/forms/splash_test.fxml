@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352" prefWidth="248" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="352" id="image" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="248">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/java_d6FbTopOcx.png" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="320" id="rect" layoutX="0" layoutY="32" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="248"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="320" id="imageAlt" layoutX="-36" layoutY="16" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="320">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/m.png" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="264" prefHeight="17" prefWidth="216" styleClass="label " text="Loading MeigoUI interface..." textAlignment="LEFT" textFill="#cccccc" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas Bold" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="24" id="rectAlt" layoutX="0" layoutY="0" stroke="#c0c0c0" strokeType="INSIDE" strokeWidth="1" styleClass="" width="248"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="11" color="#e64d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" hoverColor="#ff6666" id="button8" layoutX="224" layoutY="0" prefHeight="24" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="8" layoutY="0" prefHeight="24" prefWidth="208" styleClass="label " text="Loading application..." textAlignment="LEFT" textFill="#666666" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas Bold" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+  </children>
+</AnchorPane>

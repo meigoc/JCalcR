@@ -169,21 +169,21 @@
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="0" prefHeight="16" prefWidth="96" styleClass="label " text="JCalcR - форк" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="0" prefHeight="21" prefWidth="208" styleClass="label " text="JCalcR v1.2 (gihub @meigoc)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="Lucida Sans Unicode" size="12"/>
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
-    <FlatButton alignment="CENTER" borderRadius="11" color="#e64d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" hoverColor="#ff6666" id="button8" layoutX="224" layoutY="0" prefHeight="24" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" borderRadius="11" color="#e64d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" hoverColor="#ff6666" id="button8" layoutX="226" layoutY="2" prefHeight="20" prefWidth="20" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Bold" size="14"/>
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="304" prefHeight="48" prefWidth="232" styleClass="label " text="JCalcR | meigo.net&#10;Apache License 2.0" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="8" layoutY="302" prefHeight="48" prefWidth="144" styleClass="label " text="JCalcR | meigo.net&#10;Apache License 2.0" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
-        <Font name="Lucida Sans Unicode" size="14"/>
+        <Font name="Lucida Sans Unicode" size="15"/>
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
@@ -200,5 +200,17 @@
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="4" color="#4d3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#664db3" id="button11" layoutX="152" layoutY="312" prefHeight="32" prefWidth="88" styleClass="x-flat-button " text="GitHub" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button11" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="11" color="#ffff80" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" hoverColor="#e6e64d" id="button12" layoutX="204" layoutY="2" prefHeight="20" prefWidth="20" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button12" visible="1"/>
   </children>
 </AnchorPane>

@@ -1,0 +1,4 @@
+[classes]
+meigo\forms\MainForm
+meigo\forms\splash_test
+meigo\modules\AppModule
