@@ -1,6 +1,7 @@
 <?php
 namespace meigo\forms;
 
+use action\Animation;
 use std, gui, framework, meigo;
 use php\gui\event\UXWindowEvent; 
 use php\gui\event\UXMouseEvent; 
@@ -16,6 +17,11 @@ class MainForm extends AbstractForm
     function doLabelClickLeft(UXMouseEvent $event = null)
     {    
         $this->edit->text = "";
+        Animation::fadeTo($this->block, 100, 0);
+            waitAsync(150, function () use ($e, $event) {
+                $this->block->visible = false;
+                $this->block->opacity = 0;
+            });
     }
 
     /**
@@ -218,6 +224,11 @@ class MainForm extends AbstractForm
                 break;
                 case "/": 
                     $result = $numbers[0] / $numbers[1];
+                    if ($nubmers[1] == 0){
+                        $result = "[Calc.Error] На ноль делить нельзя!";
+                        $this->block->visible = true;
+                        Animation::fadeTo($this->block, 100, 0.7);
+                    }
                 break;
                 case "%": 
                     $procent = $numbers[0] / 100;  
@@ -291,8 +302,13 @@ class MainForm extends AbstractForm
      */
     function doShow(UXWindowEvent $e = null)
     {    
+        $this->image->toFront();
         waitAsync(100, function () use ($e, $event) {
             app()->hideSplash();
+            Animation::fadeTo($this->image, 1000, 0);
+            waitAsync(1050, function () use ($e, $event) {
+            $this->image->free();
+            });
         });    
     }
 

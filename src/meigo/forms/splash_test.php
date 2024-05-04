@@ -8,12 +8,25 @@ use php\gui\event\UXEvent;
 class splash_test extends AbstractForm
 {
 
+
     /**
-     * @event button8.action 
+     * @event button.action 
      */
-    function doButton8Action(UXEvent $e = null)
+    function doButtonAction(UXEvent $e = null)
     {    
         
+    }
+
+    /**
+     * @event button12.action 
+     */
+    function doButton12Action(UXEvent $e = null)
+    {
+        if ($this->iconified) {
+            $this->iconified = false;
+        } else {
+            $this->iconified = true;
+        }    
     }
 
 }
