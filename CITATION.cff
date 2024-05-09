@@ -20,4 +20,4 @@ references:
   abstract: Если вы используете JCalcR в своей работе, пожалуйста, ссылайтесь на него, используя следующие метаданные
   date-released: 2024-05-09
   license: MIT
-  version: 1.0
+  version: 1.2.0
