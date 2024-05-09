@@ -7,9 +7,17 @@ abstract: Best Calculator
 references:
 - type: software
   title: JCalcR
+  authors:
+  - family-names: meigo
+    given-names: org
+  identifiers:
+  - type: doi
+    value: 10.5281/zenodo.1003149
+    description: The concept DOI for the collection containing all versions of the Citation File Format.
   keywords:
   - calculator
   - calc
   abstract: Если вы используете JCalcR в своей работе, пожалуйста, ссылайтесь на него, используя следующие метаданные
+  date-released: 2024-05-09
   license: MIT
   version: 1.0
