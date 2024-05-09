@@ -52,5 +52,7 @@
 <center>
   <p>Загрузка приложения ------------------------- Само приложение</p>
 </center>
+
+<br> <br> <br>
 # Старая версия 1.1
 <img src="https://github.com/meigoc/JCalcR/assets/73817505/c69ce66d-2696-4482-a298-df1fdcdce6cc"></img>
