@@ -1,4 +1,16 @@
 {
   "props": [],
-  "components": []
+  "components": {
+    "data_bin": {
+      "type": "script\\storage\\IniStorage",
+      "x": 272,
+      "y": 240,
+      "props": {
+        "path": "data.bin",
+        "autoSave": "1",
+        "trimValues": true,
+        "multiLineValues": "1"
+      }
+    }
+  }
 }

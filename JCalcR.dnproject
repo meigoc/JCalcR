@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="glebs" authorOS="Windows 10" createdAt="1714803700576" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="JCalcR" packageName="meigo" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1714836607545">
+<project author="glebs" authorOS="Windows 10" createdAt="1714803700576" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="JCalcR" packageName="meigo" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1715289462149">
   <tree>
     <expanded>
     <path src=""/>
       <path src="/src"/>
+      <path src="/src/.data"/>
       <path src="/src/meigo"/>
-      <path src="/src/meigo/forms"/>
-      <path src="/src/meigo/modules"/>
     </expanded>
   </tree>
   <openedFiles>
-  <file src="JCalcR.dnproject"/>
-    <file selected="1" src="src/meigo/forms/MainForm.php"/>
+  <file selected="1" src="JCalcR.dnproject"/>
+    <file src="src/meigo/modules/function.php"/>
+    <file src="src/meigo/forms/MainForm.php"/>
     <file src="src/meigo/modules/AppModule.php"/>
+    <file src="src/meigo/forms/splash_test.php"/>
+    <file src="src/meigo/forms/splash_test2.php"/>
+    <file src="src/meigo/forms/splash_load.php"/>
+    <file src="src/meigo/modules/update.php"/>
   </openedFiles>
   <files/>
   <behaviours>

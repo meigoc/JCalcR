@@ -1,0 +1,13 @@
+[devtools]
+ver=1.4
+
+[main]
+fast_load=0
+disable.all.animations=0
+disable.optimization=0
+disable.blur=0
+button.animation.type=BounceIn
+
+[info]
+readme=Do not change these parameters unless you know what they do!
+

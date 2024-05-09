@@ -1,0 +1,11 @@
+[devtools]
+ver=1.0
+
+[main]
+fast_load=0
+disable.all.animations=0
+disable.optimization=0
+
+[info]
+readme=Do not change these parameters unless you know what they do!
+

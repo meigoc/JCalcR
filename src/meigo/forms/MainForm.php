@@ -1,7 +1,9 @@
 <?php
 namespace meigo\forms;
 
-use action\Animation;
+use php\gui\animatefx\AnimationFX;
+use php\lang\System;
+use gui\Ext4JphpWindows;
 use std, gui, framework, meigo;
 use php\gui\event\UXWindowEvent; 
 use php\gui\event\UXMouseEvent; 
@@ -11,25 +13,15 @@ use php\gui\event\UXEvent;
 class MainForm extends AbstractForm
 {
 
-    /**
-     * @event label.click-Left 
-     **/
-    function doLabelClickLeft(UXMouseEvent $event = null)
-    {    
-        $this->edit->text = "";
-        Animation::fadeTo($this->block, 100, 0);
-            waitAsync(150, function () use ($e, $event) {
-                $this->block->visible = false;
-                $this->block->opacity = 0;
-            });
-    }
 
     /**
      * @event btn_7.click-Left 
      **/
     function doBtn_7ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -37,7 +29,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_8ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -45,7 +39,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_9ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -53,7 +49,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_4ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -61,7 +59,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_5ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -69,7 +69,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_6ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -77,7 +79,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_1ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -85,7 +89,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_2MouseDownLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -93,7 +99,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_3ClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -101,7 +109,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_0MouseDownLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -109,7 +119,9 @@ class MainForm extends AbstractForm
      **/
     function doBtn_commaClickLeft(UXMouseEvent $event = null)
     {    
-        $this->edit->text .= $event->sender->text;
+        // функция на анимацию и прочее
+        echo "[INFO] MainForm | sent ".$event->sender->id." & ".$GLOBALS['button_anim']."\n";
+        $this->ClickButton($event->sender->id, $GLOBALS['button_anim'], 1);
     }
 
     /**
@@ -119,6 +131,7 @@ class MainForm extends AbstractForm
     {    
         global $operation; 
         if (!$operation){ 
+            // функция на анимацию и прочее
             $this->edit->text .= $event->sender->text; 
             $operation = $event->sender->text; 
         }        
@@ -157,6 +170,7 @@ class MainForm extends AbstractForm
         if (!$operation){ 
             $this->edit->text .= $event->sender->text; 
             $operation = $event->sender->text; 
+            
         }        
     }
 
@@ -222,13 +236,13 @@ class MainForm extends AbstractForm
                 case "*":
                     $result = $numbers[0] * $numbers[1];
                 break;
-                case "/": 
-                    $result = $numbers[0] / $numbers[1];
-                    if ($nubmers[1] == 0){
-                        $result = "[Calc.Error] На ноль делить нельзя!";
-                        $this->block->visible = true;
-                        Animation::fadeTo($this->block, 100, 0.7);
+                case "/":
+                    if ($numbers[1] == 0){
+                        $result = "0";
+                    } else {
+                        $result = $numbers[0] / $numbers[1];
                     }
+                    
                 break;
                 case "%": 
                     $procent = $numbers[0] / 100;  
@@ -277,13 +291,6 @@ class MainForm extends AbstractForm
         }        
     }
 
-    /**
-     * @event button8.action 
-     */
-    function doButton8Action(UXEvent $e = null)
-    {    
-        
-    }
 
     /**
      * @event btn_pow.click-Left 
@@ -302,36 +309,92 @@ class MainForm extends AbstractForm
      */
     function doShow(UXWindowEvent $e = null)
     {    
-        $this->image->toFront();
-        waitAsync(100, function () use ($e, $event) {
-            app()->hideSplash();
-            Animation::fadeTo($this->image, 1000, 0);
-            waitAsync(1050, function () use ($e, $event) {
-            $this->image->free();
+        if (app()->module("AppModule")->data_bin->get("disable.blur","main") == 1){
+            echo "data.bin * blur disabled\n";
+        } else {
+            $ext = new Ext4JphpWindows;
+            $ext->addBlur($this);
+        }
+        
+        $GLOBALS['button_anim'] = app()->module("AppModule")->data_bin->get("button.animation.type","main");
+        
+        $p = app()->module("AppModule")->data_bin->get("fast_load","main");
+        if ($p != 0)
+        {
+            $o = 200;
+        } else {
+            $o = 3000;
+        }
+        waitAsync($o, function () use ($e, $event, $o) {
+        //    app()->hideSplash();
+            echo "Dev Info | 3000ms\n";
+            
+            if (app()->module("AppModule")->data_bin->get("disable.optimization","main") == 0){
+            
+            Animation::fadeTo($this->copyright, 500, 0);
+            waitAsync(500, function () use ($e, $event) {
+                Animation::fadeTo($this->load001, 500, 1);
+                Animation::fadeTo($this->load002, 500, 1);
+                waitAsync(500, function () use ($e, $event) {
+                    // эти формы итак не используются
+                    //app()->form("splash_test")->free();
+                    //app()->form("splash_test2")->free();
+                    app()->form("splash_load")->free();
+                    System::gc();
+                    waitAsync(500, function () use ($e, $event) {
+                        Animation::fadeTo($this->load001, 500, 0);
+                        Animation::fadeTo($this->load002, 500, 0);
+                        waitAsync(500, function () use ($e, $event) {
+                            Animation::fadeTo($this->copyright, 500, 1);
+                        });
+                    });
+                });
             });
+            
+            } 
         });    
     }
 
+
+
+
     /**
-     * @event button11.click-Left 
+     * @event button10.click-Left 
      */
-    function doButton11ClickLeft(UXMouseEvent $e = null)
-    {
-        browse("https://github.com/meigoc/JCalcR");  
+    function doButton10ClickLeft(UXMouseEvent $e = null)
+    {    
+        $this->edit->text = "0";
     }
 
+    /**
+     * @event panel3.click-Left 
+     */
+    function doPanel3ClickLeft(UXMouseEvent $e = null)
+    {    
+        browse('https://github.com/meigoc/JCalcR');
+
+    }
 
     /**
-     * @event button12.action 
+     * @event image3.click-Left 
      */
-    function doButton12Action(UXEvent $e = null)
+    function doImage3ClickLeft(UXMouseEvent $e = null)
+    {    
+        app()->shutdown();
+    }
+
+    /**
+     * @event image4.click-Left 
+     */
+    function doImage4ClickLeft(UXMouseEvent $e = null)
     {    
         if ($this->iconified) {
             $this->iconified = false;
         } else {
             $this->iconified = true;
-        }    
+        }  
     }
+
 
 
 
