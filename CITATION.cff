@@ -4,6 +4,11 @@ cff-version: 1.2.0
 message: Если вы используете JCalcR в своей работе, пожалуйста, ссылайтесь на него, используя следующие метаданные
 title: JCalcR
 abstract: Best Calculator
+authors:
+- family-names: meigo
+  given-names: org
+  affiliation: meigo
+- name: meigo
 references:
 - type: software
   title: JCalcR
