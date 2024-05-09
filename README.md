@@ -1,4 +1,4 @@
-# JCalcR | v1.2
+# JCalcR | v1.4
 `Форк/продолжение проекта `[JCalcX](https://github.com/Zalexanninev15/JCalcX)` от `[Zalexanninev15](https://github.com/Zalexanninev15)
 
 [![](https://img.shields.io/badge/OS-Windows-blue?logo=windows)](https://github.com/meigoc/JCalcR)
@@ -10,8 +10,8 @@
 ## Скриншоты
 <div>
   <center>
-    <img src="https://github.com/meigoc/JCalcR/assets/73817505/9b1729b2-1dd8-4ce4-bce8-37babd7be90f"></img>
-    <img src="https://github.com/meigoc/JCalcR/assets/73817505/44c3b801-50c3-48e0-8db5-23981070da40"></img>
+    <img src="https://github.com/meigoc/JCalcR/assets/73817505/c706e442-050c-4591-b5e6-e9501e916fa7"></img>
+    <img src="https://github.com/meigoc/JCalcR/assets/73817505/338fbc79-86b3-43c8-ac2c-79b2748dc966"></img>
   </center>
 </div>
 <center>
@@ -42,5 +42,15 @@
 6. Запускаем и радуемся!
 
 <br> <br> <br>
+# Старая версия 1.2
+<div>
+  <center>
+    <img src="https://github.com/meigoc/JCalcR/assets/73817505/9b1729b2-1dd8-4ce4-bce8-37babd7be90f"></img>
+    <img src="https://github.com/meigoc/JCalcR/assets/73817505/44c3b801-50c3-48e0-8db5-23981070da40"></img>
+  </center>
+</div>
+<center>
+  <p>Загрузка приложения ------------------------- Само приложение</p>
+</center>
 # Старая версия 1.1
 ![изображение](https://github.com/meigoc/JCalcR/assets/73817505/c69ce66d-2696-4482-a298-df1fdcdce6cc)
