@@ -8,6 +8,7 @@ use std, gui, framework, meigo;
 use php\gui\event\UXWindowEvent; 
 use php\gui\event\UXMouseEvent; 
 use php\gui\event\UXEvent; 
+use php\gui\event\UXKeyEvent; 
 
 
 class MainForm extends AbstractForm
@@ -394,6 +395,48 @@ class MainForm extends AbstractForm
             $this->iconified = true;
         }  
     }
+
+    /**
+     * @event keyDown-AnyDigit 
+     */
+    function doKeyDownAnyDigit(UXKeyEvent $e = null)
+    {    
+        $a = trim($e->codeName);
+        echo "[KEYBOARD] Pressed: ".$a."\n";
+        
+        if (str::isNumber($a) == true)
+        {
+        
+            $button_id = "btn_".$e->codeName;
+            echo "[INPUT] ".$button_id."\n";
+            
+            // функция на анимацию и прочее
+            echo "[INFO] MainForm | sent ".$button_id." & ".$GLOBALS['button_anim']."\n";
+            $this->ClickButton($button_id, $GLOBALS['button_anim'], 1);
+        
+        }
+    }
+
+    /**
+     * @event button8.click-Left 
+     */
+    function doButton8ClickLeft(UXMouseEvent $e = null)
+    {    
+        app()->shutdown();
+    }
+
+    /**
+     * @event button11.click-Left 
+     */
+    function doButton11ClickLeft(UXMouseEvent $e = null)
+    {
+        if ($this->iconified) {
+            $this->iconified = false;
+        } else {
+            $this->iconified = true;
+        }  
+    }
+
 
 
 

@@ -48,7 +48,7 @@
         <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/calculator.png" visible="1"/>
         <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
         <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image3" layoutX="336" layoutY="16" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image3" layoutX="336" layoutY="16" mosaic="false" mosaicGap="0" opacity="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -208,13 +208,13 @@
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="64" layoutY="48" prefHeight="21" prefWidth="176" styleClass="label " text="JCalcR v1.4" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="64" layoutY="48" prefHeight="21" prefWidth="176" styleClass="label " text="JCalcR v1.4.1" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="Lucida Sans Unicode" size="12"/>
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
-    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="copyright" layoutX="16" layoutY="512" prefHeight="32" prefWidth="160" styleClass="label " text="JCalcR | Meigo™&#10;MIT License" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="copyright" layoutX="16" layoutY="512" prefHeight="32" prefWidth="184" styleClass="label " text="JCalcR | Meigo™ Corporation&#10;MIT License &amp; All rights reserved." textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
@@ -234,7 +234,7 @@
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image4" layoutX="312" layoutY="24" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image4" layoutX="312" layoutY="24" mosaic="false" mosaicGap="0" opacity="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
@@ -248,5 +248,17 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-load002" visible="1"/>
+    <FlatButton alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#b3b3b3" id="button8" layoutX="344" layoutY="24" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rec.png" id="data-button8" visible="1"/>
+    <FlatButton alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#b3b3b3" id="button11" layoutX="312" layoutY="24" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/new-moon.png" id="data-button11" visible="1"/>
   </children>
 </AnchorPane>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="glebs" authorOS="Windows 10" createdAt="1714803700576" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="JCalcR" packageName="meigo" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1715289462149">
+<project author="glebs" authorOS="Windows 10" createdAt="1714803700576" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="JCalcR" packageName="meigo" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1716062873033">
   <tree>
     <expanded>
     <path src=""/>
